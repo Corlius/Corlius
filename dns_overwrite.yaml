@@ -1,4 +1,5 @@
 name:DNS覆写
+desc: 覆写DNS
 
 dns:
   enable: true
