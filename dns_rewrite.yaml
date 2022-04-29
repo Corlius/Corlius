@@ -1,3 +1,5 @@
+name:DNS覆写
+
 dns:
   enable: true
   listen: 0.0.0.0:53
