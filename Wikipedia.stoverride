@@ -1,0 +1,10 @@
+name: Wikipedia 重定向
+desc: 将维基百科英文版重定向到中文版
+
+http:
+  mitm:
+    - "*.m.wikipedia.org"
+    - "*.wikipedia.org"
+  rewrite:
+    - ^https?:\/\/en.m.wikipedia\.org https://zh.m.wikipedia.org 302
+    - ^https?:\/\/en.wikipedia\.org https://zh.wikipedia.org 302
